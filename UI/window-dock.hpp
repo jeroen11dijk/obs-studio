@@ -8,5 +8,5 @@ class OBSDock : public QDockWidget {
 public:
 	inline OBSDock(QWidget *parent = nullptr) : QDockWidget(parent) {}
 
-	virtual void closeEvent(QCloseEvent *event);
+	virtual void CloseEvent(QCloseEvent *event);
 };

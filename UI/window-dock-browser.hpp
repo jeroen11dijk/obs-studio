@@ -19,5 +19,5 @@ public:
 		cefWidget.reset(widget_);
 	}
 
-	void closeEvent(QCloseEvent *event) override;
+	void CloseEvent(QCloseEvent *event) override;
 };

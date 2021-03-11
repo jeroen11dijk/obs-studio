@@ -1,9 +1,9 @@
 #include "window-dock-browser.hpp"
 #include <QCloseEvent>
 
-void BrowserDock::closeEvent(QCloseEvent *event)
+void BrowserDock::CloseEvent(QCloseEvent *event)
 {
-	OBSDock::closeEvent(event);
+	OBSDock::CloseEvent(event);
 
 	if (!event->isAccepted()) {
 		return;

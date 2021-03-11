@@ -4,7 +4,7 @@
 #include <QMessageBox>
 #include <QCheckBox>
 
-void OBSDock::closeEvent(QCloseEvent *event)
+void OBSDock::CloseEvent(QCloseEvent *event)
 {
 	auto msgBox = []() {
 		QMessageBox msgbox(App()->GetMainWindow());
